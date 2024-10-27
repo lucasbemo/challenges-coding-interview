@@ -1,15 +1,26 @@
+# Challenges Coding Interview
+
+Here you can find some common Coding Interview Challenges of Algorithms and Data Structures that I have solved in Java.
 
 
-Please, the find first duplication coding challenge is resolved with what type of algorithm? like Dynamic Programing, Divide and COnquer or even other one ?
+- Binary Search Tree
 
-can you give me more details about why this hashing solutions is considered greedy approach ?
+- Dynamic Programming
+  - Binary Search
 
-very nice explanation.
-You give me the 'Greedy Nature of the Hashing Solution' very well.
-Can you give me another alternatives of Hashing Solution that pertence to Greedy approuch?
+- Divide and Conquer
+  - Fibonacci
 
-Very good chatGpt.
-Can you do the same but with a hash-based alternative with others challenge/problem ?
+- Greedy Algorithms
+  - Dijkstra's Algorithm
+  - Find the Minimum Spanning Tree
+  - Find First Duplicate Item
 
-Sorry, I was mean:
-Can you give me another alternatives of 'Hashing Solution' like Array 2D that pertence to Greedy approuch?
+- Strings
+    - Anagrams
+    - Palindromes
+    - Permutations
+    - Substrings
+    - Unique Characters
+    - Is Digit
+    - Is Letter
