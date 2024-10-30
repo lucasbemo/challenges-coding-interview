@@ -1,5 +1,21 @@
 # Naive Algorithm to Pattern Searching
 
+Given text string with length ```n``` and a pattern with length ```m```, the task is to prints all occurrences 
+of pattern in text.
+
+Note: You may assume that ```n > m```.
+
+***Examples***
+```
+Input:  text = “THIS IS A TEST TEXT”, pattern = “TEST”
+Output: Pattern found at index 10
+
+Input:  text =  “AABAACAADAABAABA”, pattern = “AABA”
+Output: Pattern found at index 0, Pattern found at index 9, Pattern found at index 12
+```
+
+**Naive Approach** The naive approach to the problem is simply to try every possible combination
+
 ***Brute Force Approach:***
 - In the naive pattern-matching algorithm, we start at each position of the text and check if the pattern matches the 
 substring of the text at that position.
