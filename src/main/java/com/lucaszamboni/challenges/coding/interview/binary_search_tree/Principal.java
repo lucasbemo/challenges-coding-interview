@@ -1,4 +1,4 @@
-package com.lucaszamboni.challenges.coding.interview.binarySearchTree;
+package com.lucaszamboni.challenges.coding.interview.binary_search_tree;
 
 public class Principal {
 

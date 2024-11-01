@@ -1,4 +1,4 @@
-package com.lucaszamboni.challenges.coding.interview.dynamicprogramming.fibonacci;
+package com.lucaszamboni.challenges.coding.interview.dynamic_programming.fibonacci;
 
 public class Principal {
     public static void main(String[] args) {

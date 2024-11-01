@@ -1,4 +1,4 @@
-package com.lucaszamboni.challenges.coding.interview.greedy.twosum;
+package com.lucaszamboni.challenges.coding.interview.greedy.two_sum;
 
 import java.util.ArrayList;
 import java.util.Arrays;

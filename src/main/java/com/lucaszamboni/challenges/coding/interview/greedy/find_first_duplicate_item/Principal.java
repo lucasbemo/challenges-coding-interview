@@ -1,4 +1,4 @@
-package com.lucaszamboni.challenges.coding.interview.greedy.findFirstDuplicateItem;
+package com.lucaszamboni.challenges.coding.interview.greedy.find_first_duplicate_item;
 
 import java.util.HashMap;
 import java.util.HashSet;

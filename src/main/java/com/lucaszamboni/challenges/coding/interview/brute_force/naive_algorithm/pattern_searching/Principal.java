@@ -1,4 +1,4 @@
-package com.lucaszamboni.challenges.coding.interview.bruteforce.naivealgorithm.patternsearching;
+package com.lucaszamboni.challenges.coding.interview.brute_force.naive_algorithm.pattern_searching;
 
 import java.util.ArrayList;
 

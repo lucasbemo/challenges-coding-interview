@@ -1,4 +1,4 @@
-package com.lucaszamboni.challenges.coding.interview.divideandconquer.binarySearch;
+package com.lucaszamboni.challenges.coding.interview.divide_and_conquer.binary_search;
 
 public class Principal {
 
