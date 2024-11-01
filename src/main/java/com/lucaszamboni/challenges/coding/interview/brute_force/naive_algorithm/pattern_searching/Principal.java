@@ -8,11 +8,11 @@ public class Principal {
         String text = "BLABL LBLA BDBLA";
         String pattern = "BLA";
 
-        ArrayList<Integer> bingos = naiveAlgorithmPatternSearchingV2(text, pattern);
+        ArrayList<Integer> matching = naiveAlgorithmPatternSearchingV2(text, pattern);
 
-        System.out.printf("How many pattern %s there is in text %s? %d\n", pattern, text, bingos.size());
+        System.out.printf("How many pattern %s there is in text %s? %d\n", pattern, text, matching.size());
 
-        for (int item: bingos) {
+        for (int item: matching) {
             System.out.printf("There is at %d\n", item);
         }
     }
@@ -49,21 +49,21 @@ public class Principal {
     }
 
     private static ArrayList<Integer> naiveAlgorithmPatternSearchingV2(String text, String pattern) {
-        int textLetterLength = text.toCharArray().length;
-        int patternLetterLength = pattern.toCharArray().length;
-        ArrayList<Integer> bingos = new ArrayList<>();
+        int textLetterLength = text.length();
+        int patternLetterLength = pattern.length();
+        ArrayList<Integer> matching = new ArrayList<>();
 
         for (int textIdx=0; textIdx <= textLetterLength - patternLetterLength; textIdx++) {
-            int patternidx;
+            int patternIdx;
 
-            for (patternidx=0; patternidx < patternLetterLength; patternidx++) {
-                if (text.charAt(textIdx+patternidx) != pattern.charAt(patternidx))
+            for (patternIdx=0; patternIdx < patternLetterLength; patternIdx++) {
+                if (text.charAt(textIdx+patternIdx) != pattern.charAt(patternIdx))
                     break;
             }
 
-            if (patternidx == patternLetterLength)
-                bingos.add(textIdx);
+            if (patternIdx == patternLetterLength)
+                matching.add(textIdx);
         }
-        return bingos;
+        return matching;
     }
 }
